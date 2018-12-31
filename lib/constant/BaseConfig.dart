@@ -8,6 +8,13 @@ const String poster_base_url = "http://image.tmdb.org/t/p/w500/";
 const String top_rated_movie = "$base_url/movie/top_rated?api_key=961277648f1e28c74788bade62b3b24c&language=en-US&page=1";
 const String now_playing_movie = "$base_url/movie/now_playing?api_key=961277648f1e28c74788bade62b3b24c&language=en-US&page=1";
 
+String getDetailUrl(int id){
+   String detail_url = "$base_url/movie/$id?api_key=961277648f1e28c74788bade62b3b24c&language=en-US";
+   print("detail url $detail_url");
+   return detail_url;
+}
+
+
 const main_bottom_menu = [
   BottomNavigationBarItem(
       icon: Icon(Icons.movie),

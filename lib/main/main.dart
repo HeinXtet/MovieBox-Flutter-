@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:movie_box/constant/BaseConfig.dart';
 
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

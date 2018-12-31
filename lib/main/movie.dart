@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'dart:async';
 import 'package:movie_box/constant/BaseConfig.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
+import 'package:movie_box/detail/Detail.dart';
 
 Widget Banner(List popularMovie,double height){
   return Container(
@@ -48,6 +49,10 @@ Widget NowPlayingMovie(List nowplaying,double height,double width,String title){
                   splashColor: Colors.blue,
                   onTap: (){
                     debugPrint("");
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => Detail(title:nowplaying[index]["title"],id: nowplaying[index]["id"])),
+                    );
                   },
                   child: Column(
                     textDirection: TextDirection.ltr,
