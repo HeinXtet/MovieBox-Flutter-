@@ -2,7 +2,17 @@
 
 A new Flutter application.
 
+
+IOS Screenshot
+
+ <br>
+  <img width = "500" scr="https://github.com/HeinXtet/MovieBox-Flutter-/blob/master/iamges/ios_one.PNG?raw=true">
+ </br>
+
+
+
 ## Getting Started
+
 
 This project is a starting point for a Flutter application.
 
