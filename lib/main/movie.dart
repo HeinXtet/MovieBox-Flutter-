@@ -6,11 +6,22 @@ import 'package:movie_box/constant/BaseConfig.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:movie_box/detail/Detail.dart';
 
-Widget Banner(List popularMovie,double height){
+
+
+
+Widget Banner(BuildContext context, List popularMovie,double height){
+
+  void bannerClick(int index){
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => Detail(title:popularMovie[index]["title"],id: popularMovie[index]["id"])),
+    );
+  }
+
   return Container(
     height: height / 3,
-    color: Colors.white,
     child: new Swiper(
+      onTap: bannerClick,
       itemBuilder: (BuildContext context,int index){
         return new Image.network("${poster_base_url}${popularMovie[index]["backdrop_path"]}",fit: BoxFit.fill);
       },
@@ -20,7 +31,12 @@ Widget Banner(List popularMovie,double height){
       control: null,
     ),
   );
+
+
 }
+
+
+
 
 Widget NowPlayingMovie(List nowplaying,double height,double width,String title){
 
@@ -90,9 +106,20 @@ class Movie extends StatefulWidget{
   State<StatefulWidget> createState() {
     return MovieState();
   }
+
+
 }
 
+
 class MovieState extends State<Movie>{
+
+  @override
+  void dispose() {
+    super.dispose();
+    this.dispose();
+  }
+
+
 
   bool isError = false;
   bool isLoading = true;
@@ -167,7 +194,7 @@ class MovieState extends State<Movie>{
         child: Container(
           child: ListView(
             children: <Widget>[
-              Banner(popularMovie,height),
+              Banner(context,popularMovie,height),
               NowPlayingMovie(latestMovie, height,width,"Now Playing Movie"),
               NowPlayingMovie(popularMovie, height, width,"Top Rated Movie")
             ],
