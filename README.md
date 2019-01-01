@@ -14,6 +14,17 @@ IOS Screenshot
  </br>
 
 
+Android Screenshot
+
+ <br>
+  <img width = "400" height ="600" src="https://github.com/HeinXtet/MovieBox-Flutter-/blob/master/iamges/android_one.PNG?raw=true"/>
+ </br>
+ 
+  <br>
+  <img width = "400" height ="600" src="https://github.com/HeinXtet/MovieBox-Flutter-/blob/master/iamges/android_two.PNG?raw=true"/>
+ </br>
+
+
 
 
 ## Getting Started
