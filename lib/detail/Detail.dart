@@ -79,7 +79,6 @@ class DetailState extends State<Detail> {
     queryData = MediaQuery.of(context);
     var width = queryData.size.width;
     var height = queryData.size.height;
-    List genres = detail["genres"];
     return ListView(
       children: <Widget>[
         Container(
@@ -106,7 +105,7 @@ class DetailState extends State<Detail> {
                         Padding(
                           padding: EdgeInsets.fromLTRB(0, 32, 16, 4),
                           child: Container(
-                            margin: EdgeInsets.fromLTRB(0, 32, 0, 0),
+                            margin: EdgeInsets.fromLTRB(0, 48, 0, 0),
                             child: Text(
                               detail["title"],
                               style: TextStyle(
