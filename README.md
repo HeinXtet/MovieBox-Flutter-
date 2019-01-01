@@ -6,7 +6,7 @@ A new Flutter application.
 IOS Screenshot
 
  <br>
-  <img width = "500" src="https://github.com/HeinXtet/MovieBox-Flutter-/blob/master/iamges/ios_one.PNG?raw=true"/>
+  <img width = "400" height = "400" src="https://github.com/HeinXtet/MovieBox-Flutter-/blob/master/iamges/ios_one.PNG?raw=true"/>
  </br>
 
 
