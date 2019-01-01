@@ -3,16 +3,21 @@
 A new Flutter application.
 
 
+IOS Screenshot
 
-### IOS Screenshot
+ <br>
+  <img width = "400" height ="600" src="https://github.com/HeinXtet/MovieBox-Flutter-/blob/master/iamges/ios_one.PNG?raw=true"/>
+ </br>
+ 
+  <br>
+  <img width = "400" height ="600" src="https://github.com/HeinXtet/MovieBox-Flutter-/blob/master/iamges/iso_two.PNG?raw=true"/>
+ </br>
 
-```
-<img src="https://github.com/favicon.ico" width="48">
-```
 
 
 
 ## Getting Started
+
 
 This project is a starting point for a Flutter application.
 
