@@ -10,7 +10,7 @@ IOS Screenshot
  </br>
  
   <br>
-  <img width = "400" height ="600" src="https://github.com/HeinXtet/MovieBox-Flutter-/blob/master/iamges/ios_two.PNG?raw=true"/>
+  <img width = "400" height ="600" src="https://github.com/HeinXtet/MovieBox-Flutter-/blob/master/iamges/iso_two.PNG?raw=true"/>
  </br>
 
 
